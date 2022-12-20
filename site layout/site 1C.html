@@ -3,8 +3,13 @@
     <head>  
         <title>Аренда 1С в облаке</title>
         <link rel="stylesheet" type="text/css" href="styles.css"
+        <script src="jquery-3.6.2.min.js"></script>
+        <script src="script.js"></script>
     </head>
  <body>	
+    <div id="popup-container">
+        <div id="popup"></div>
+    </div>
     <div id="black-bar">
         <div class="fixed-container">
             Начни вести <a href="https://1c-ulmix-soft.ru/">учёт в 1С</a> уже сейчас
@@ -53,7 +58,7 @@
                 <div class="news-item-props">
                     <a href="#">Легальность ПО</a>
                     <div class="news-time">10:45</div>
-                    <div class="news-comments-count">17</div>
+                    <div class="news-comments-count">27</div>
                 </div>
             </div>
             <div class="news-item">
@@ -62,9 +67,10 @@
                 <div class="news-item-props">
                     <a href="#">/Консультация 1С</a>
                     <div class="news-time">10:45</div>
-                    <div class="news-comments-count">17</div>
+                    <div class="news-comments-count">37</div>
                 </div>
             </div>
+            <button id="changeButton">Change!</button>
         </div>
         <div id="column-center">
              <div class="news-item-main">
